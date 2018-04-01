@@ -1,0 +1,34 @@
+<label for="basic-url">Input url of chosen them or select them from table below</label>
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon3"></span>
+    </div>
+    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+    <button type="button" class="btn btn-primary">Select</button>
+</div>
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Them</th>
+        <th scope="col">Game</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">1</th>
+        <td><a href="/test.php?action=" class="badge badge-primary"><?php echo $arr_links[1]?></a></td>
+        <td><?php echo $arr_links[3]?></td>
+    </tr>
+    <tr>
+        <th scope="row">2</th>
+        <td><a href="#" class="badge badge-primary"><?php echo $arr_links[5]?></a></td>
+        <td><?php echo $arr_links[7]?></td>
+    </tr>
+    <tr>
+        <th scope="row">3</th>
+        <td><a href="#" class="badge badge-primary"><?php echo $arr_links[9]?></a></td>
+        <td><?php echo $arr_links[11]?></td>
+    </tr>
+    </tbody>
+</table>
